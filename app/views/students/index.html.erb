@@ -1,3 +1,5 @@
-this is the html page for a student
-<br>
-<%= @students %>
+<div>
+  <% @students.each do |s| %>
+    <div><%= s.o_s %></div>
+  <% end>
+</div>
